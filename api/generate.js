@@ -13,9 +13,9 @@ export default async function handler(req, res) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
-  // Şeffaf arka plan çizilmiyor (arka planı boş bırak)
+  // Şeffaf arka plan çizilmiyor (arka plan boş)
 
-  ctx.fillStyle = '#000000'; // Yazı rengi (değiştirilebilir)
+  ctx.fillStyle = '#000000'; // Yazı rengi
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   ctx.font = '200px sans-serif';
